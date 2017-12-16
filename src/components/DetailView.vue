@@ -1,11 +1,16 @@
 <template>
-	<div class="card-image">
-		
+	<div class="mdl-grid">
 	</div>
 </template>
 
 <script type="text/javascript">
+	import data from '../data'
 	export default {
+		data () {
+			return {
+				'pictures': data.pictures
+			}
+		}
 	}
 </script>
 
